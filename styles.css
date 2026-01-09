@@ -1,0 +1,56 @@
+* {
+  font-family: "Poppins";
+}
+
+li.active a {
+  border-bottom: 2px solid #f05a27;
+}
+
+section.main {
+  background-image: url("https://i.pinimg.com/originals/00/90/64/0090646567e38db86df5e91df202aab2.png");  
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 112px);
+}
+
+img.eleccion{
+  height: -webkit-fill-available;
+  object-fit: cover;
+  object-position: right;
+}
+
+.wpp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+link[rel="icon"] {
+  object-fit: contain;
+}
+
+.mobile-menu {
+  transition: all 0.3s ease-in-out;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.mobile-menu.open {
+    max-height: 300px;
+}
+
+.hamburger span {
+    transition: all 0.3s ease-in-out;
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+}
