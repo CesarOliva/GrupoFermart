@@ -2,15 +2,11 @@
   font-family: "Poppins";
 }
 
-li.active a {
-  border-bottom: 2px solid #f05a27;
-}
-
 section.main {
-  background-image: url("https://i.pinimg.com/originals/00/90/64/0090646567e38db86df5e91df202aab2.png");  
+  background-image: url("Imagenes/fondo.png");  
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(100vh - 112px);
+  background-position: center;
 }
 
 img.eleccion{
@@ -25,32 +21,8 @@ img.eleccion{
   right: 20px;
 }
 
-link[rel="icon"] {
-  object-fit: contain;
-}
-
-.mobile-menu {
-  transition: all 0.3s ease-in-out;
-  max-height: 0;
-  overflow: hidden;
-}
-
-.mobile-menu.open {
-    max-height: 300px;
-}
-
-.hamburger span {
-    transition: all 0.3s ease-in-out;
-}
-
-.hamburger.active span:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
-}
-
-.hamburger.active span:nth-child(2) {
-    opacity: 0;
-}
-
-.hamburger.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(7px, -6px);
+.contact-bg {
+  background: linear-gradient(135deg, rgba(36, 34, 35, 0.7) 0%, rgba(59, 58, 58, 0.9) 100%), url('https://images.unsplash.com/photo-1631856956334-35db20cb7748?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
 }
